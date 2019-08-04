@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f08086d-5d57-41c5-ad14-a347b62cc9b0" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/user/impl/EmployeeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#844#845#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+                <element signature="e#1144#1145#0" expanded="true" />
+                <element signature="e#1203#1204#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kaylen/payroll/service/user/EmployeeServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kaylen/payroll/service/demography/GenderServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/user/impl/EmployeeRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kaylen/payroll/service/demography/RaceServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/demography/RaceService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/demography/impl/GenderServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/demography/impl/RaceServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/user/EmployeeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/IRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/user/EmployeeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/demography/GenderRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/demography/RaceRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/user/EmployeeGenderRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/factory/user/EmployeeGenderFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/domain/user/EmployeeGender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/user/impl/EmployeeGenderRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/IService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/impl/EmployeeGenderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/EmployeeGenderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/EmployeeGenderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/user/EmployeeGenderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/user/EmployeeGenderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/user/impl/EmployeeGenderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/factory/demography/GenderFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/factory/demography/RaceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/domain/user/Employee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaylen/payroll/factory/demography/GenderFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/factory/user/EmployeeFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/domain/demography/Gender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/domain/demography/Race.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaylen/payroll/factory/demography/RaceFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaylen/payroll/factory/user/EmployeeFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/user/impl/EmployeeRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaylen/payroll/repository/user/EmployeeRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/demography/impl/GenderRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaylen/payroll/repository/demography/GenderRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/demography/impl/RaceRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaylen/payroll/repository/demography/RaceRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/user/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/user/impl/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaylen/payroll/service/user/EmployeeServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/demography/GenderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/demography/RaceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/demography/impl/GenderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/demography/impl/RaceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaylen/payroll/service/demography/GenderServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaylen/payroll/service/demography/RaceServiceTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\Kaylen\.m2\repository" />
+        <option name="userSettingsFile" value="C:\Users\Kaylen\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="217" />
+    <option name="y" value="-17" />
+    <option name="width" value="1170" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kaylen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kaylen" type="462c0819:PsiDirectoryNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kaylen" type="462c0819:PsiDirectoryNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kaylen" type="462c0819:PsiDirectoryNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kaylen" type="462c0819:PsiDirectoryNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kaylen" type="462c0819:PsiDirectoryNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kaylen" type="462c0819:PsiDirectoryNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kaylen" type="462c0819:PsiDirectoryNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kaylen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kaylen" type="462c0819:PsiDirectoryNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kaylen" type="462c0819:PsiDirectoryNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kaylen" type="462c0819:PsiDirectoryNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564915005986" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IdeaProjects/SchoolManagementSystem" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.EmployeeServiceTest">
+    <configuration name="EmployeeRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payroll" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaylen.payroll.repository.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaylen.payroll.repository.user" />
+      <option name="MAIN_CLASS_NAME" value="com.kaylen.payroll.repository.user.EmployeeRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payroll" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaylen.payroll.service.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaylen.payroll.service.user" />
+      <option name="MAIN_CLASS_NAME" value="com.kaylen.payroll.service.user.EmployeeServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenderRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payroll" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaylen.payroll.repository.demography.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaylen.payroll.repository.demography" />
+      <option name="MAIN_CLASS_NAME" value="com.kaylen.payroll.repository.demography.GenderRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RaceRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payroll" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaylen.payroll.repository.demography.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaylen.payroll.repository.demography" />
+      <option name="MAIN_CLASS_NAME" value="com.kaylen.payroll.repository.demography.RaceRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.kaylen.payroll in payroll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payroll" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaylen.payroll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaylen.payroll" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeServiceTest" />
+        <item itemvalue="JUnit.com.kaylen.payroll in payroll" />
+        <item itemvalue="JUnit.RaceRepositoryTest" />
+        <item itemvalue="JUnit.GenderRepositoryTest" />
+        <item itemvalue="JUnit.EmployeeRepositoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f08086d-5d57-41c5-ad14-a347b62cc9b0" name="Default Changelist" comment="" />
+      <created>1564685257159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564685257159</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="com_kaylen_payroll_in_payroll - 2019.08.04 at 11h 08m 11s.xml">
+      <configuration name="com.kaylen.payroll in payroll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest - 2019.08.04 at 12h 04m 06s.xml">
+      <configuration name="EmployeeServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest - 2019.08.04 at 12h 04m 49s.xml">
+      <configuration name="EmployeeServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest - 2019.08.04 at 12h 05m 15s.xml">
+      <configuration name="EmployeeServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest - 2019.08.04 at 12h 06m 23s.xml">
+      <configuration name="EmployeeServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest - 2019.08.04 at 12h 07m 02s.xml">
+      <configuration name="EmployeeServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest - 2019.08.04 at 12h 08m 38s.xml">
+      <configuration name="EmployeeServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest - 2019.08.04 at 12h 10m 01s.xml">
+      <configuration name="EmployeeServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_kaylen_payroll_in_payroll - 2019.08.04 at 12h 31m 27s.xml">
+      <configuration name="com.kaylen.payroll in payroll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest - 2019.08.04 at 12h 36m 47s.xml">
+      <configuration name="EmployeeServiceTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.049099836" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.049099836" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.049099836" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/domain/demography/sex.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/domain/user/EmployeeRace.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaylen/payroll/AppTest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1515" selection-start-line="1515" selection-end-line="1515" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/user/impl/EmployeeGenderRepositoryImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/user/EmployeeGenderRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/factory/user/EmployeeGenderFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/user/EmployeeGenderService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/user/impl/EmployeeGenderServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/domain/user/EmployeeGender.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/domain/user/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="83" column="33" lean-forward="true" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/factory/demography/GenderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/factory/user/EmployeeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/domain/demography/Race.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/factory/demography/RaceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaylen/payroll/factory/demography/GenderFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="6" selection-start-line="10" selection-start-column="2" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaylen/payroll/factory/demography/RaceFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaylen/payroll/factory/user/EmployeeFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/domain/demography/Gender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/demography/RaceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/demography/GenderRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/demography/impl/GenderRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaylen/payroll/repository/demography/GenderRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/demography/impl/RaceRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaylen/payroll/repository/demography/RaceRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/IRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/user/EmployeeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/IService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaylen/payroll/repository/user/EmployeeRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/demography/GenderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/user/impl/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaylen/payroll/service/user/EmployeeServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaylen/payroll/service/demography/GenderServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaylen/payroll/service/demography/RaceServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/demography/RaceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/demography/impl/GenderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/demography/impl/RaceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/service/user/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaylen/payroll/repository/user/impl/EmployeeRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
