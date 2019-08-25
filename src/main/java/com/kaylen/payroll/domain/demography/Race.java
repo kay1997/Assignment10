@@ -4,17 +4,17 @@ import java.util.Objects;
 
 public class Race {
 
-    private String employeeNumber;
+    private String raceID;
     private String raceType;
 
     private Race(Builder builder)
     {
-        this.employeeNumber = builder.employeeNumber;
+        this.raceID = builder.raceID;
         this.raceType = builder.raceType;
     }
 
-    public String getEmployeeNumber() {
-        return employeeNumber;
+    public String getRaceID() {
+        return raceID;
     }
 
     public String getRaceType() {
@@ -23,12 +23,12 @@ public class Race {
 
     public static class Builder {
 
-        private String employeeNumber;
+        private String raceID;
         private String raceType;
 
-        public Builder employeeNumber(String employeeNumber)
+        public Builder raceID(String raceID)
         {
-            this.employeeNumber = employeeNumber;
+            this.raceID = raceID;
             return this;
         }
 
@@ -40,7 +40,7 @@ public class Race {
 
         public Builder copy(Race race)
         {
-            this.employeeNumber = employeeNumber;
+            this.raceID = raceID;
             this.raceType = raceType;
 
             return this;
@@ -52,7 +52,7 @@ public class Race {
     @Override
     public String toString() {
         return "Race{" +
-                "EmployeeNumber='" + employeeNumber + '\'' +
+                "RaceID='" + raceID + '\'' +
                 "RaceType='" + raceType + '\'' +
                 '}';
     }
@@ -62,12 +62,12 @@ public class Race {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Race race = (Race) o;
-        return employeeNumber.equals(race.employeeNumber);
+        return raceID.equals(race.raceID);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(employeeNumber);
+        return Objects.hash(raceID);
     }
 
 }

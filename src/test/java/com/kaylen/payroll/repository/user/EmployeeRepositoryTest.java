@@ -19,7 +19,7 @@ public class EmployeeRepositoryTest {
     public void setUp() throws Exception {
 
         repository = EmployeeRepositoryImpl.getRepository();
-        employee = EmployeeFactory.getEmployee("12345", "Kaylen", "Abrahams", "Male", "Coloured");
+        employee = EmployeeFactory.getEmployee("12345", "Kaylen", "Abrahams");
 
     }
 
@@ -51,7 +51,7 @@ public class EmployeeRepositoryTest {
 
     @Test
     public void update() {
-        Employee employeeUpdated = EmployeeFactory.getEmployee("12345","Kevin","Abrahams","Male","Coloured");
+        Employee employeeUpdated = EmployeeFactory.getEmployee("12345","Kevin","Abrahams");
         repository.update(employeeUpdated);
 
         Employee emp = repository.read("12345");

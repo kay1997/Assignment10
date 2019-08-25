@@ -12,7 +12,7 @@ public class EmployeeFactoryTest {
     Employee employee;
     @Before
     public void setUp() throws Exception {
-        employee = EmployeeFactory.getEmployee("12345", "Kaylen", "Abrahams","Male", "Coloured");
+        employee = EmployeeFactory.getEmployee("12345", "Kaylen", "Abrahams");
     }
 
     @Test

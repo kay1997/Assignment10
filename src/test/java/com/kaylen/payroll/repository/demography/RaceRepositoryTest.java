@@ -19,7 +19,7 @@ public class RaceRepositoryTest {
     public void setUp() throws Exception {
 
         repository = RaceRepositoryImpl.getRepository();
-        race = RaceFactory.getRace("12345", "White");
+        race = RaceFactory.getRace("White");
     }
 
     @Test
@@ -38,19 +38,19 @@ public class RaceRepositoryTest {
     @Test
     public void create() {
         repository.create(race);
-        assertNotNull(repository.read(race.getEmployeeNumber()));
-        System.out.println("Created\n" + repository.read(race.getEmployeeNumber()));
+        assertNotNull(repository.read(race.getRaceID()));
+        System.out.println("Created\n" + repository.read(race.getRaceID()));
     }
 
     @Test
     public void read() {
-        assertNotNull(repository.read(race.getEmployeeNumber()));
-        System.out.println("Read\n" + repository.read(race.getEmployeeNumber()));
+        assertNotNull(repository.read(race.getRaceID()));
+        System.out.println("Read\n" + repository.read(race.getRaceID()));
     }
 
     @Test
     public void update() {
-        Race employeeUpdated = RaceFactory.getRace("12345", "Coloured");
+        Race employeeUpdated = RaceFactory.getRace( "Coloured");
         repository.update(employeeUpdated);
 
         Race gen = repository.read("12345");

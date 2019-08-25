@@ -8,8 +8,6 @@ import java.util.Objects;
 public class Employee {
 
     private String employeeNumber, firstName, lastName;
-    private Gender gender;
-    private Race race;
 
     private Employee() {}
 
@@ -18,8 +16,6 @@ public class Employee {
         this.employeeNumber = builder.employeeNumber;
         this.firstName = builder.firstName;
         this.lastName = builder.lastName;
-        this.gender = builder.gender;
-        this.race = builder.race;
     }
 
     public String getEmployeeNumber() {
@@ -34,17 +30,11 @@ public class Employee {
         return lastName;
     }
 
-    public Gender getGender() { return gender; }
-
-    public Race getRace() { return race; }
-
     public static class Builder {
 
         private String employeeNumber;
         private String firstName;
         private String lastName;
-        private Gender gender;
-        private Race race;
 
         public Builder employeeNumber(String employeeNumber)
         {
@@ -64,25 +54,11 @@ public class Employee {
             return this;
         }
 
-        public Builder gender(Gender gender)
-        {
-            this.gender = gender;
-            return this;
-        }
-
-        public Builder race(Race race)
-        {
-            this.race = race;
-            return this;
-        }
-
         public Builder copy(Employee employee)
         {
             this.employeeNumber = employeeNumber;
             this.firstName = firstName;
             this.lastName = lastName;
-            this.gender = gender;
-            this.race = race;
 
             return this;
         }
@@ -96,8 +72,6 @@ public class Employee {
                 "EmployeeNumber='" + employeeNumber + '\'' +
                 ", FirstName='" + firstName + '\'' +
                 ", LastName='" + lastName + '\'' +
-                ", Gender='" + gender.getGenderType()+ '\'' +
-                ", Race='" + race.getRaceType() + '\'' +
                 '}';
     }
 

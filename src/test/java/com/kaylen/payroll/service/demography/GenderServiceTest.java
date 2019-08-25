@@ -18,7 +18,7 @@ public class GenderServiceTest {
     @Before
     public void setUp() throws Exception {
         service = GenderServiceImpl.getService();
-        gender = GenderFactory.getGender("12345", " Male");
+        gender = GenderFactory.getGender(" Male");
     }
 
     @Test
@@ -52,18 +52,18 @@ public class GenderServiceTest {
         service.create(gender);
         System.out.println(service.read("12345"));
 
-        Gender genderUpdated = GenderFactory.getGender("12345", "Female");
+        Gender genderUpdated = GenderFactory.getGender("Female");
         service.update(genderUpdated);
 
-        Gender emp = service.read("12345");
-        Assert.assertNotEquals(gender.getGenderType(), emp.getGenderType());
+        Gender gen = service.read("12345");
+        Assert.assertNotEquals(gender.getGenderType(), gen.getGenderType());
         System.out.println("Updated\n" + service.read("12345"));
     }
 
     @Test
     public void delete() {
         service.delete("12345");
-        assertNull(service.read(gender.getEmployeeNumber()));
-        System.out.println("Delete\n" + service.read(gender.getEmployeeNumber()));
+        assertNull(service.read(gender.getGenderID()));
+        System.out.println("Delete\n" + service.read(gender.getGenderID()));
     }
 }

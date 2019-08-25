@@ -11,7 +11,7 @@ public class GenderFactoryTest {
     Gender gender;
     @Before
     public void setUp() throws Exception {
-        gender = GenderFactory.getGender("12345", "Male");
+        gender = GenderFactory.getGender( "Male");
     }
 
     @Test

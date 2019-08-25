@@ -28,11 +28,11 @@ public class RaceRepositoryImpl implements RaceRepository {
     }
 
     @Override
-    public Race create(Race gender) {
-        if(read(gender.getEmployeeNumber())  == null){
-            this.races.put(gender.getEmployeeNumber(),gender);
+    public Race create(Race race) {
+        if(read(race.getRaceID())  == null){
+            this.races.put(race.getRaceID(),race);
         }
-        return gender;
+        return race;
     }
 
     @Override
@@ -41,17 +41,17 @@ public class RaceRepositoryImpl implements RaceRepository {
     }
 
     @Override
-    public Race update(Race gender) {
-        if(read(gender.getEmployeeNumber()) != null){
-            races.replace(gender.getEmployeeNumber(), gender);
+    public Race update(Race race) {
+        if(read(race.getRaceID()) != null){
+            races.replace(race.getRaceID(), race);
         }
-        return gender;
+        return race;
     }
 
     @Override
     public void delete(String e) {
-        Race gender = read(e);
-        this.races.remove(e, gender);
+        Race race = read(e);
+        this.races.remove(e, race);
     }
 
 }

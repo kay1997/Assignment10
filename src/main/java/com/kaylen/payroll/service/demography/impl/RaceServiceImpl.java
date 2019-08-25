@@ -31,13 +31,13 @@ public class RaceServiceImpl implements RaceService {
     }
 
     @Override
-    public void delete(String employeeNumber){
-        this.repository.delete(employeeNumber);
+    public void delete(String raceID){
+        this.repository.delete(raceID);
     }
 
     @Override
-    public Race read(String employeeNumber) {
-        return this.repository.read(employeeNumber);
+    public Race read(String raceID) {
+        return this.repository.read(raceID);
     }
 
     @Override

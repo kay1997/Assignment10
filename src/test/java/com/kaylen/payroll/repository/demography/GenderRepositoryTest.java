@@ -19,7 +19,7 @@ public class GenderRepositoryTest {
         public void setUp() throws Exception {
 
             repository = GenderRepositoryImpl.getRepository();
-            gender = GenderFactory.getGender("12345", "Male");
+            gender = GenderFactory.getGender("Male");
         }
 
         @Test
@@ -38,20 +38,20 @@ public class GenderRepositoryTest {
         @Test
         public void create() {
             repository.create(gender);
-            assertNotNull(repository.read(gender.getEmployeeNumber()));
-            System.out.println("Created\n" + repository.read(gender.getEmployeeNumber()));
+            assertNotNull(repository.read(gender.getGenderID()));
+            System.out.println("Created\n" + repository.read(gender.getGenderID()));
         }
 
         @Test
         public void read() {
-            assertNotNull(repository.read(gender.getEmployeeNumber()));
-            System.out.println("Read\n" + repository.read(gender.getEmployeeNumber()));
+            assertNotNull(repository.read(gender.getGenderID()));
+            System.out.println("Read\n" + repository.read(gender.getGenderID()));
         }
 
         @Test
         public void update() {
-            Gender employeeUpdated = GenderFactory.getGender("12345", "Female");
-            repository.update(employeeUpdated);
+            Gender genderUpdated = GenderFactory.getGender("Female");
+            repository.update(genderUpdated);
 
             Gender gen = repository.read("12345");
             assertNotEquals(gender.getGenderType(), gen.getGenderType());

@@ -31,13 +31,13 @@ public class GenderServiceImpl implements GenderService {
     }
 
     @Override
-    public void delete(String employeeNumber){
-        this.repository.delete(employeeNumber);
+    public void delete(String genderID){
+        this.repository.delete(genderID);
     }
 
     @Override
-    public Gender read(String employeeNumber) {
-        return this.repository.read(employeeNumber);
+    public Gender read(String genderID) {
+        return this.repository.read(genderID);
     }
 
     @Override

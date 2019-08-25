@@ -21,7 +21,6 @@ public class GenderRepositoryImpl implements GenderRepository {
         return repository;
     }
 
-
     public Set<Gender> getAll() {
         Collection<Gender> genders = this.genders.values();
         Set<Gender> set = new HashSet<>();
@@ -31,8 +30,8 @@ public class GenderRepositoryImpl implements GenderRepository {
 
     @Override
     public Gender create(Gender gender) {
-        if(read(gender.getEmployeeNumber())  == null){
-            this.genders.put(gender.getEmployeeNumber(),gender);
+        if(read(gender.getGenderID())  == null){
+            this.genders.put(gender.getGenderID(),gender);
         }
         return gender;
     }
@@ -44,8 +43,8 @@ public class GenderRepositoryImpl implements GenderRepository {
 
     @Override
     public Gender update(Gender gender) {
-        if(read(gender.getEmployeeNumber()) != null){
-            genders.replace(gender.getEmployeeNumber(), gender);
+        if(read(gender.getGenderID()) != null){
+            genders.replace(gender.getGenderID(), gender);
         }
         return gender;
     }

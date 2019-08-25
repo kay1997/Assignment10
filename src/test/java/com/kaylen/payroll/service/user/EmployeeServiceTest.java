@@ -19,7 +19,7 @@ public class EmployeeServiceTest {
     @Before
     public void setUp() throws Exception {
         service = EmployeeServiceImpl.getService();
-        employee = EmployeeFactory.getEmployee("12345", "Kaylen", "Abrahams", " Male", "Coloured");
+        employee = EmployeeFactory.getEmployee("12345", "Kaylen", "Abrahams");
     }
 
     @Test
@@ -53,7 +53,7 @@ public class EmployeeServiceTest {
         service.create(employee);
         System.out.println(service.read("12345"));
 
-        Employee employeeUpdated = EmployeeFactory.getEmployee("12345", "Kevin", "Abrahams", "Male", "Coloured");
+        Employee employeeUpdated = EmployeeFactory.getEmployee("12345", "Kevin", "Abrahams");
         service.update(employeeUpdated);
 
         Employee emp = service.read("12345");

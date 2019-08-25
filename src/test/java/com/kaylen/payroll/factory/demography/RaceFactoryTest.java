@@ -12,7 +12,7 @@ public class RaceFactoryTest {
     Race race;
     @Before
     public void setUp() throws Exception {
-        race = RaceFactory.getRace("12345", "Coloured");
+        race = RaceFactory.getRace( "Coloured");
     }
 
     @Test

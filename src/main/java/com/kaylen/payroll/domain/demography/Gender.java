@@ -4,29 +4,29 @@ import java.util.Objects;
 
 public class Gender {
 
-    private String employeeNumber;
+    private String genderID;
     private String genderType;
 
     private Gender(Builder builder)
     {
-        this.employeeNumber = builder.employeeNumber;
+        this.genderID = builder.genderID;
         this.genderType = builder.genderType;
     }
 
-    public String getEmployeeNumber() {
-        return employeeNumber;
+    public String getGenderID() {
+        return genderID;
     }
 
     public String getGenderType(){return genderType;}
 
     public static class Builder {
 
-        private String employeeNumber;
+        private String genderID;
         private String genderType;
 
-        public Builder employeeNumber(String employeeNumber)
+        public Builder genderID(String genderID)
         {
-            this.employeeNumber = employeeNumber;
+            this.genderID = genderID;
             return this;
         }
 
@@ -38,7 +38,7 @@ public class Gender {
 
         public Builder copy(Gender gender)
         {
-            this.employeeNumber = employeeNumber;
+            this.genderID = genderID;
             this.genderType = genderType;
 
             return this;
@@ -50,7 +50,7 @@ public class Gender {
     @Override
     public String toString() {
         return "Gender{" +
-                "EmployeeNumber='" + employeeNumber + '\'' +
+                "GenderID='" + genderID + '\'' +
                 "GenderType='" + genderType + '\'' +
                 '}';
     }
@@ -60,12 +60,12 @@ public class Gender {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Gender gender = (Gender) o;
-        return employeeNumber.equals(gender.employeeNumber);
+        return genderID.equals(gender.genderID);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(employeeNumber);
+        return Objects.hash(genderID);
     }
 
 }

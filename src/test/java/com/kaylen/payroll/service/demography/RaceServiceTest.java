@@ -18,7 +18,7 @@ public class RaceServiceTest {
     @Before
     public void setUp() throws Exception {
         service = RaceServiceImpl.getService();
-        race = RaceFactory.getRace("12345", " White");
+        race = RaceFactory.getRace("White");
     }
 
     @Test
@@ -52,19 +52,19 @@ public class RaceServiceTest {
         service.create(race);
         System.out.println(service.read("12345"));
 
-        Race raceUpdated = RaceFactory.getRace("12345", "Coloured");
+        Race raceUpdated = RaceFactory.getRace( "Coloured");
         service.update(raceUpdated);
 
-        Race emp = service.read("12345");
-        Assert.assertNotEquals(race.getRaceType(), emp.getRaceType());
+        Race r = service.read("12345");
+        Assert.assertNotEquals(race.getRaceType(), r.getRaceType());
         System.out.println("Updated\n" + service.read("12345"));
     }
 
     @Test
     public void delete() {
         service.delete("12345");
-        assertNull(service.read(race.getEmployeeNumber()));
-        System.out.println("Delete\n" + service.read(race.getEmployeeNumber()));
+        assertNull(service.read(race.getRaceID()));
+        System.out.println("Delete\n" + service.read(race.getRaceID()));
     }
 }
 
